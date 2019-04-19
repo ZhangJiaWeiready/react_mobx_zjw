@@ -1,0 +1,37 @@
+{
+    "fonts":"/resource/assets/fonts/font_148784_v4ggb6wrjmkotj4i",
+    "dev": {
+        "serverIp": "192.168.16.78",
+        "serverPort": "8989",
+        "serverBaseUrl": "/udbcloud",
+        "uflowIp": "192.168.95.100",
+        "uflowPort": "8090",
+        "socketIp": "",
+        "socketPort": "",
+        "sshSystemIp": "192.168.120.115",
+        "sshSystemPort": "8888",
+        "loginIp": "192.168.182.67",
+        "loginPort":"58076",
+        "loginBaseUrl": "/ultra-perview-java",
+        "frontIp": "127.0.0.1",
+        "frontPort": "10018"
+    },
+    
+    "pro": {
+        "serverIp": "192.168.120.115",
+        "serverPort": "8989",
+        "serverBaseUrl": "/udbcloud",
+        "uflowIp": "192.168.95.100",
+        "uflowPort": "8090",
+        "socketIp": "",
+        "socketPort": "",
+        "context":"/",
+        "sshSystemIp": "192.168.120.115",
+        "sshSystemPort": "8888",
+        "loginIp": "192.168.182.67",
+        "loginPort":"58076",
+        "loginBaseUrl": "/ultra-perview-java",
+        "frontIp": "192.168.120.115",
+        "frontPort": "8080"
+    }
+}

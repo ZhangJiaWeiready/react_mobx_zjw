@@ -1,0 +1,102 @@
+[
+    {
+        "path": "/authorityManage",
+        "name": "权限管理"
+    },
+    {
+        "path": "/orderManage",
+        "name": "工单管理",
+        "childPath": [
+            {
+                "path": "/orderManage/tobeprocess",
+                "name": "待处理的工单"
+            },
+            {
+                "path": "/orderManage/havetodeal",
+                "name": "已处理的工单"
+            },
+            {
+                "path": "/orderManage/icreate",
+                "name": "我创建的工单"
+            },
+            {
+                "path": "/orderManage/toberead",
+                "name": "待阅知的工单"
+            }
+        ]
+    },
+    {
+        "path": "",
+        "name": "系统运行概况",
+        "childPath": [
+            {
+                "path": "/systemRunDetail/databaseEnvironment",
+                "name": "数据库环境概览"
+            },
+            {
+                "path": "/systemRunDetail/storageSpace",
+                "name": "数据库储存空间概览"
+            },
+            {
+                "path": "/systemRunDetail/performanceOveriview",
+                "name": "性能概况"
+            },
+            {
+                "path": "/systemRunDetail/alarmDetail",
+                "name": "告警信息"
+            },
+            {
+                "path": "/systemRunDetail/pdbHealthDetail",
+                "name": "健康度"
+            }
+        ]
+    },
+    {
+        "path": "/sqlAudit",
+        "name": "SQL审核",
+        "childPath": [
+            {
+                "path": "/sqlAudit/auditDataBase",
+                "name": "SQL对象审核"
+            },
+            {
+                "path": "/sqlAudit/fourCate",
+                "name": "四类SQL TOP10"
+            },
+            {
+                "path": "/sqlAudit/auditTask",
+                "name": "SQL任务审核"
+            },
+            {
+                "path": "/sqlAudit/developOrder",
+                "name": "SQL开发工单"
+            }
+        ]
+    },
+    {
+        "path": "/backgroundManage",
+        "name": "后台管理"
+    },
+    {
+        "path": "/backupManage",
+        "name": "备份管理"
+    },
+    {
+        "path": "/inspectReport",
+        "name": "巡检报告"
+    },
+    {
+        "path": "/bigScreenDisplay",
+        "name": "大屏展示"
+    },
+    {
+        "path": "",
+        "name": "系统配置",
+        "childPath": [
+            {
+                "path": "dbconfig",
+                "name": "数据库配置"
+            }
+        ]
+    }
+]
